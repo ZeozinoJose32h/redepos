@@ -10,9 +10,9 @@
 ## Estrutura dos arquivos:
 - path/helpers - extensions.dart Arquivo que conte todas as validações e "regex".
 - path/model - converte dados(json) em conceitos(dart) para aplicação.
-- path/repositories - Comunicação com API, em caso de mudança do backend da API, este é o único arquivo que precisa de alteração, não a nenhuma logica de tela ele unicamente consome e entrega os dados.
+- path/repositories - Comunicação com API, em caso de mudança do backend da API, este é o único arquivo que precisa de alteração, não a nenhuma lógica de tela ele unicamente consome e entrega os dados.
 - path/screens - todas as telas.
-- path/stores - todas as logicas de tela(mobx e provider), UserStore é uma instancia única em todo app utilizando o provider.
+- path/stores - todas as lógica de tela(mobx e provider), UserStore é uma instancia única em todo app utilizando o provider.
 - path/widgets - Widgets utilizado em varias telas simultaneamente.
 
 ### Bibliotecas:
