@@ -3,7 +3,7 @@
 ### Importante:
 #### cpf, cep, phone, não estão sendo completamente validados, porém devidamente formatados.
 #### Na HomeSreen é possível "adicionar" ou "remover" do carrinho, endpoin /setvalue e /remvalue porém o recurso não foi feito por completo, apenas adiciona e remove dados enviando os devidos POST sem efeitos visuais no aplicativo.
-#### Na UserScreen o POST /getalldata é utilizado, para criar ou atualizar os dados.
+#### Na UserScreen os POST /getalldata e /setvalue é utilizado, para criar ou atualizar os dados.
 #### LoginScreen e SignupScreen utilizam os POST, /login e /signup respectivamente.
 
 
