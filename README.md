@@ -53,7 +53,7 @@
 
 - [^_.]* // zero ou mais caracteres que não são _ nem . (garantindo que só vou pegar os __ antes do primeiro ponto)
 
-- __ // dois caracteres _ seguidos (que também pode trocar por _{2}, se achar que fica mais legível)
+- __ // dois caracteres _ seguidos 
 
 - [^.]* // zero ou mais caracteres que não são .
 
